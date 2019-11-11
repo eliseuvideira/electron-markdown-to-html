@@ -1,0 +1,15 @@
+{
+  "name": "markdown-to-html",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "author": "Eliseu Videira <eliseuvideira1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^7.1.1",
+    "marked": "^0.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node_modules/.bin/electron . --disable-gpu"
+  }
+}
